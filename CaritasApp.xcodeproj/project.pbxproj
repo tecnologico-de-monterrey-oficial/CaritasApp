@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4DC316126EADAE100EDB65C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC316026EADAE100EDB65C /* AppDelegate.swift */; };
+		C4DC316326EADAE100EDB65C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC316226EADAE100EDB65C /* SceneDelegate.swift */; };
+		C4DC316526EADAE100EDB65C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC316426EADAE100EDB65C /* ViewController.swift */; };
+		C4DC316826EADAE100EDB65C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4DC316626EADAE100EDB65C /* Main.storyboard */; };
+		C4DC316A26EADAE300EDB65C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DC316926EADAE300EDB65C /* Assets.xcassets */; };
+		C4DC316D26EADAE300EDB65C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4DC316B26EADAE300EDB65C /* LaunchScreen.storyboard */; };
+		C4DC317826EADAE300EDB65C /* CaritasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC317726EADAE300EDB65C /* CaritasAppTests.swift */; };
+		C4DC318326EADAE300EDB65C /* CaritasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC318226EADAE300EDB65C /* CaritasAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4DC317426EADAE300EDB65C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4DC315526EADAE100EDB65C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4DC315C26EADAE100EDB65C;
+			remoteInfo = CaritasApp;
+		};
+		C4DC317F26EADAE300EDB65C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4DC315526EADAE100EDB65C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4DC315C26EADAE100EDB65C;
+			remoteInfo = CaritasApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4DC315D26EADAE100EDB65C /* CaritasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaritasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DC316026EADAE100EDB65C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4DC316226EADAE100EDB65C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C4DC316426EADAE100EDB65C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4DC316726EADAE100EDB65C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4DC316926EADAE300EDB65C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4DC316C26EADAE300EDB65C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4DC316E26EADAE300EDB65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4DC317326EADAE300EDB65C /* CaritasAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaritasAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DC317726EADAE300EDB65C /* CaritasAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaritasAppTests.swift; sourceTree = "<group>"; };
+		C4DC317926EADAE300EDB65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4DC317E26EADAE300EDB65C /* CaritasAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaritasAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DC318226EADAE300EDB65C /* CaritasAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaritasAppUITests.swift; sourceTree = "<group>"; };
+		C4DC318426EADAE300EDB65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4DC315A26EADAE100EDB65C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DC317026EADAE300EDB65C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DC317B26EADAE300EDB65C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4DC315426EADAE100EDB65C = {
+			isa = PBXGroup;
+			children = (
+				C4DC315F26EADAE100EDB65C /* CaritasApp */,
+				C4DC317626EADAE300EDB65C /* CaritasAppTests */,
+				C4DC318126EADAE300EDB65C /* CaritasAppUITests */,
+				C4DC315E26EADAE100EDB65C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4DC315E26EADAE100EDB65C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4DC315D26EADAE100EDB65C /* CaritasApp.app */,
+				C4DC317326EADAE300EDB65C /* CaritasAppTests.xctest */,
+				C4DC317E26EADAE300EDB65C /* CaritasAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4DC315F26EADAE100EDB65C /* CaritasApp */ = {
+			isa = PBXGroup;
+			children = (
+				C4DC316026EADAE100EDB65C /* AppDelegate.swift */,
+				C4DC316226EADAE100EDB65C /* SceneDelegate.swift */,
+				C4DC316426EADAE100EDB65C /* ViewController.swift */,
+				C4DC316626EADAE100EDB65C /* Main.storyboard */,
+				C4DC316926EADAE300EDB65C /* Assets.xcassets */,
+				C4DC316B26EADAE300EDB65C /* LaunchScreen.storyboard */,
+				C4DC316E26EADAE300EDB65C /* Info.plist */,
+			);
+			path = CaritasApp;
+			sourceTree = "<group>";
+		};
+		C4DC317626EADAE300EDB65C /* CaritasAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4DC317726EADAE300EDB65C /* CaritasAppTests.swift */,
+				C4DC317926EADAE300EDB65C /* Info.plist */,
+			);
+			path = CaritasAppTests;
+			sourceTree = "<group>";
+		};
+		C4DC318126EADAE300EDB65C /* CaritasAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4DC318226EADAE300EDB65C /* CaritasAppUITests.swift */,
+				C4DC318426EADAE300EDB65C /* Info.plist */,
+			);
+			path = CaritasAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4DC315C26EADAE100EDB65C /* CaritasApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DC318726EADAE300EDB65C /* Build configuration list for PBXNativeTarget "CaritasApp" */;
+			buildPhases = (
+				C4DC315926EADAE100EDB65C /* Sources */,
+				C4DC315A26EADAE100EDB65C /* Frameworks */,
+				C4DC315B26EADAE100EDB65C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaritasApp;
+			productName = CaritasApp;
+			productReference = C4DC315D26EADAE100EDB65C /* CaritasApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4DC317226EADAE300EDB65C /* CaritasAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DC318A26EADAE300EDB65C /* Build configuration list for PBXNativeTarget "CaritasAppTests" */;
+			buildPhases = (
+				C4DC316F26EADAE300EDB65C /* Sources */,
+				C4DC317026EADAE300EDB65C /* Frameworks */,
+				C4DC317126EADAE300EDB65C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4DC317526EADAE300EDB65C /* PBXTargetDependency */,
+			);
+			name = CaritasAppTests;
+			productName = CaritasAppTests;
+			productReference = C4DC317326EADAE300EDB65C /* CaritasAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4DC317D26EADAE300EDB65C /* CaritasAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DC318D26EADAE300EDB65C /* Build configuration list for PBXNativeTarget "CaritasAppUITests" */;
+			buildPhases = (
+				C4DC317A26EADAE300EDB65C /* Sources */,
+				C4DC317B26EADAE300EDB65C /* Frameworks */,
+				C4DC317C26EADAE300EDB65C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4DC318026EADAE300EDB65C /* PBXTargetDependency */,
+			);
+			name = CaritasAppUITests;
+			productName = CaritasAppUITests;
+			productReference = C4DC317E26EADAE300EDB65C /* CaritasAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4DC315526EADAE100EDB65C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C4DC315C26EADAE100EDB65C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C4DC317226EADAE300EDB65C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C4DC315C26EADAE100EDB65C;
+					};
+					C4DC317D26EADAE300EDB65C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C4DC315C26EADAE100EDB65C;
+					};
+				};
+			};
+			buildConfigurationList = C4DC315826EADAE100EDB65C /* Build configuration list for PBXProject "CaritasApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4DC315426EADAE100EDB65C;
+			productRefGroup = C4DC315E26EADAE100EDB65C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4DC315C26EADAE100EDB65C /* CaritasApp */,
+				C4DC317226EADAE300EDB65C /* CaritasAppTests */,
+				C4DC317D26EADAE300EDB65C /* CaritasAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4DC315B26EADAE100EDB65C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DC316D26EADAE300EDB65C /* LaunchScreen.storyboard in Resources */,
+				C4DC316A26EADAE300EDB65C /* Assets.xcassets in Resources */,
+				C4DC316826EADAE100EDB65C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DC317126EADAE300EDB65C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DC317C26EADAE300EDB65C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4DC315926EADAE100EDB65C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DC316526EADAE100EDB65C /* ViewController.swift in Sources */,
+				C4DC316126EADAE100EDB65C /* AppDelegate.swift in Sources */,
+				C4DC316326EADAE100EDB65C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DC316F26EADAE300EDB65C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DC317826EADAE300EDB65C /* CaritasAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DC317A26EADAE300EDB65C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DC318326EADAE300EDB65C /* CaritasAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4DC317526EADAE300EDB65C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4DC315C26EADAE100EDB65C /* CaritasApp */;
+			targetProxy = C4DC317426EADAE300EDB65C /* PBXContainerItemProxy */;
+		};
+		C4DC318026EADAE300EDB65C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4DC315C26EADAE100EDB65C /* CaritasApp */;
+			targetProxy = C4DC317F26EADAE300EDB65C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4DC316626EADAE100EDB65C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4DC316726EADAE100EDB65C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4DC316B26EADAE300EDB65C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4DC316C26EADAE300EDB65C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4DC318526EADAE300EDB65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4DC318626EADAE300EDB65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4DC318826EADAE300EDB65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CaritasApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codinghost.CaritasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4DC318926EADAE300EDB65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CaritasApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codinghost.CaritasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4DC318B26EADAE300EDB65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CaritasAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codinghost.CaritasAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaritasApp.app/CaritasApp";
+			};
+			name = Debug;
+		};
+		C4DC318C26EADAE300EDB65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CaritasAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codinghost.CaritasAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaritasApp.app/CaritasApp";
+			};
+			name = Release;
+		};
+		C4DC318E26EADAE300EDB65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CaritasAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codinghost.CaritasAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaritasApp;
+			};
+			name = Debug;
+		};
+		C4DC318F26EADAE300EDB65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CaritasAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codinghost.CaritasAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaritasApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4DC315826EADAE100EDB65C /* Build configuration list for PBXProject "CaritasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DC318526EADAE300EDB65C /* Debug */,
+				C4DC318626EADAE300EDB65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DC318726EADAE300EDB65C /* Build configuration list for PBXNativeTarget "CaritasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DC318826EADAE300EDB65C /* Debug */,
+				C4DC318926EADAE300EDB65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DC318A26EADAE300EDB65C /* Build configuration list for PBXNativeTarget "CaritasAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DC318B26EADAE300EDB65C /* Debug */,
+				C4DC318C26EADAE300EDB65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DC318D26EADAE300EDB65C /* Build configuration list for PBXNativeTarget "CaritasAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DC318E26EADAE300EDB65C /* Debug */,
+				C4DC318F26EADAE300EDB65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4DC315526EADAE100EDB65C /* Project object */;
+}
