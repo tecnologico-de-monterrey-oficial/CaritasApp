@@ -1,20 +1,19 @@
 //
-//  ViewController.swift
+//  LoginViewController.swift
 //  CaritasApp
 //
 //  Created by Ernesto López on 09/09/21.
 //
-// Cambio tonto
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
 }
+
 
