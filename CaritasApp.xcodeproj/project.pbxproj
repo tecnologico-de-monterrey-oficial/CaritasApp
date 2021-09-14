@@ -15,7 +15,6 @@
 		C4DC316D26EADAE300EDB65C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4DC316B26EADAE300EDB65C /* LaunchScreen.storyboard */; };
 		C4DC317826EADAE300EDB65C /* CaritasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC317726EADAE300EDB65C /* CaritasAppTests.swift */; };
 		C4DC318326EADAE300EDB65C /* CaritasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC318226EADAE300EDB65C /* CaritasAppUITests.swift */; };
-		C4DC319126EAF4FA00EDB65C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC319026EAF4FA00EDB65C /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		C4DC317E26EADAE300EDB65C /* CaritasAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaritasAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DC318226EADAE300EDB65C /* CaritasAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaritasAppUITests.swift; sourceTree = "<group>"; };
 		C4DC318426EADAE300EDB65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4DC319026EAF4FA00EDB65C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 				C4DC316926EADAE300EDB65C /* Assets.xcassets */,
 				C4DC316B26EADAE300EDB65C /* LaunchScreen.storyboard */,
 				C4DC316E26EADAE300EDB65C /* Info.plist */,
-				C4DC319026EAF4FA00EDB65C /* LoginViewController.swift */,
 			);
 			path = CaritasApp;
 			sourceTree = "<group>";
@@ -261,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4DC319126EAF4FA00EDB65C /* LoginViewController.swift in Sources */,
 				C4DC316526EADAE100EDB65C /* ViewController.swift in Sources */,
 				C4DC316126EADAE100EDB65C /* AppDelegate.swift in Sources */,
 				C4DC316326EADAE100EDB65C /* SceneDelegate.swift in Sources */,
